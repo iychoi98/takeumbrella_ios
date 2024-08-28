@@ -8,3 +8,4 @@ takeumbrella/Podfile.lock
 takeumbrella/.DS_Store
 *.xcuserstate
 takeumbrella/takeumbrella.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+*.xcbkptlist
