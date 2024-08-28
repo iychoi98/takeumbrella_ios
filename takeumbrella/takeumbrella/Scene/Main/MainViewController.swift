@@ -14,6 +14,7 @@ class MainViewController: UIViewController {
     
     // Floating Button
     @IBOutlet weak var controlFloatingView: UIView!
+    @IBOutlet weak var settingFloatingView: UIView!
     
     // ToolBar
     @IBOutlet weak var toolBarBottomConst: NSLayoutConstraint!
@@ -31,8 +32,9 @@ class MainViewController: UIViewController {
             $0.edges.equalToSuperview()
         }
         
-        // Gesture
+        // addGestureRecognizer
         controlFloatingView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(onTappedControlFloating)))
+        settingFloatingView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(onTappedSettingFloating)))
     }
 }
 
@@ -51,5 +53,11 @@ extension MainViewController {
                 self?.view.layoutIfNeeded()
             }
         }
+    }
+    
+    @objc func onTappedSettingFloating() {
+        guard let settingVC = SettingViewController.instance() else { return }
+        navigationController?.pushViewController(settingVC, animated: true)
+        
     }
 }

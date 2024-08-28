@@ -21,6 +21,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tmq-Mb-wY2">
+                                <rect key="frame" x="327" y="75" width="50" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="QXY-lZ-amb"/>
+                                    <constraint firstAttribute="width" constant="50" id="s40-14-fdA"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bf6-G7-CE5">
                                 <rect key="frame" x="327" y="666" width="50" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -55,6 +63,8 @@
                             <constraint firstItem="nMh-Yj-3PU" firstAttribute="top" secondItem="bf6-G7-CE5" secondAttribute="bottom" constant="16" id="9OY-Kl-8AU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bf6-G7-CE5" secondAttribute="trailing" constant="16" id="K5A-Lh-S8H"/>
                             <constraint firstItem="nMh-Yj-3PU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aoX-zG-8lc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tmq-Mb-wY2" secondAttribute="trailing" constant="16" id="eFe-fS-hRZ"/>
+                            <constraint firstItem="tmq-Mb-wY2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="eel-L2-8Ty"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bgF-vK-fhx" secondAttribute="trailing" id="iGB-ca-mW9"/>
                             <constraint firstItem="bgF-vK-fhx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jkm-l9-I8b"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nMh-Yj-3PU" secondAttribute="trailing" constant="16" id="n8m-3f-o7Q"/>
@@ -64,6 +74,7 @@
                     <connections>
                         <outlet property="controlFloatingView" destination="bf6-G7-CE5" id="USV-ZM-pcL"/>
                         <outlet property="mainMapView" destination="bgF-vK-fhx" id="udF-4f-0Cb"/>
+                        <outlet property="settingFloatingView" destination="tmq-Mb-wY2" id="pk6-xr-xqO"/>
                         <outlet property="toolBarBottomConst" destination="21N-sT-4rq" id="2Mh-d8-1QD"/>
                     </connections>
                 </viewController>
@@ -74,15 +85,49 @@
         <!--Setting View Controller-->
         <scene sceneID="SL2-VQ-M9x">
             <objects>
-                <viewController id="sFN-dy-H2J" customClass="SettingViewController" customModule="takeumbrella" customModuleProvider="target" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gfs-wJ-i00" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="SettingViewController" id="sFN-dy-H2J" customClass="SettingViewController" customModule="takeumbrella" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zW5-HS-RVu">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vf5-Lb-HF3">
+                                <rect key="frame" x="0.0" y="59" width="393" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="설정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCg-4g-n8D">
+                                        <rect key="frame" x="181.66666666666666" y="19.666666666666671" width="30" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X57-Fp-RZi">
+                                        <rect key="frame" x="16" y="12.666666666666671" width="75" height="35"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="onTappedBackButton:" destination="sFN-dy-H2J" eventType="touchUpInside" id="vaV-3b-PFU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="WCg-4g-n8D" firstAttribute="centerX" secondItem="Vf5-Lb-HF3" secondAttribute="centerX" id="APu-m6-QH2"/>
+                                    <constraint firstItem="X57-Fp-RZi" firstAttribute="leading" secondItem="Vf5-Lb-HF3" secondAttribute="leading" constant="16" id="G9x-K4-rhd"/>
+                                    <constraint firstItem="WCg-4g-n8D" firstAttribute="centerY" secondItem="Vf5-Lb-HF3" secondAttribute="centerY" id="K0n-md-KMz"/>
+                                    <constraint firstAttribute="height" constant="60" id="bbP-yo-3IB"/>
+                                    <constraint firstItem="X57-Fp-RZi" firstAttribute="centerY" secondItem="Vf5-Lb-HF3" secondAttribute="centerY" id="ytb-jm-BdJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Bh4-w0-7oY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Bh4-w0-7oY" firstAttribute="trailing" secondItem="Vf5-Lb-HF3" secondAttribute="trailing" id="0TM-Bb-FFo"/>
+                            <constraint firstItem="Vf5-Lb-HF3" firstAttribute="top" secondItem="Bh4-w0-7oY" secondAttribute="top" id="0dg-wm-ztk"/>
+                            <constraint firstItem="Vf5-Lb-HF3" firstAttribute="leading" secondItem="Bh4-w0-7oY" secondAttribute="leading" id="eya-Sv-GNh"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Gfs-wJ-i00" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1671" y="-2"/>
         </scene>
@@ -107,6 +152,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
