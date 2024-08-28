@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4E237FCAABA222C3D7D2A1E5 /* Pods_takeumbrella_takeumbrellaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DEFB851CD643F1CC1BD029 /* Pods_takeumbrella_takeumbrellaUITests.framework */; };
+		8743476D2C7EF15C00D9C9D7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8743476C2C7EF15C00D9C9D7 /* MainViewController.swift */; };
+		874347712C7EF17C00D9C9D7 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874347702C7EF17C00D9C9D7 /* SettingViewController.swift */; };
 		8784065A2C7EE339009D48D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878406592C7EE339009D48D7 /* AppDelegate.swift */; };
 		8784065C2C7EE339009D48D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784065B2C7EE339009D48D7 /* SceneDelegate.swift */; };
-		8784065E2C7EE339009D48D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784065D2C7EE339009D48D7 /* ViewController.swift */; };
 		878406612C7EE339009D48D7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 878406602C7EE339009D48D7 /* Base */; };
 		878406632C7EE339009D48D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878406622C7EE339009D48D7 /* Assets.xcassets */; };
 		878406662C7EE339009D48D7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 878406652C7EE339009D48D7 /* Base */; };
@@ -46,10 +47,11 @@
 		63CD3DC14DE07CEC09E18418 /* Pods_takeumbrellaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_takeumbrellaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DEFB851CD643F1CC1BD029 /* Pods_takeumbrella_takeumbrellaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_takeumbrella_takeumbrellaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEBDFC1D57E942E8735E5F9 /* Pods-takeumbrella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-takeumbrella.debug.xcconfig"; path = "Target Support Files/Pods-takeumbrella/Pods-takeumbrella.debug.xcconfig"; sourceTree = "<group>"; };
+		8743476C2C7EF15C00D9C9D7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		874347702C7EF17C00D9C9D7 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		878406562C7EE339009D48D7 /* takeumbrella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takeumbrella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878406592C7EE339009D48D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8784065B2C7EE339009D48D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8784065D2C7EE339009D48D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		878406602C7EE339009D48D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		878406622C7EE339009D48D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		878406652C7EE339009D48D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -114,6 +116,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8743476A2C7EF11E00D9C9D7 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				8743476E2C7EF16000D9C9D7 /* Main */,
+				8743476F2C7EF16800D9C9D7 /* Setting */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		8743476B2C7EF13900D9C9D7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8784065F2C7EE339009D48D7 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8743476E2C7EF16000D9C9D7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8743476C2C7EF15C00D9C9D7 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8743476F2C7EF16800D9C9D7 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				874347702C7EF17C00D9C9D7 /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		874347722C7EF24100D9C9D7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		8784064D2C7EE338009D48D7 = {
 			isa = PBXGroup;
 			children = (
@@ -139,10 +181,11 @@
 		878406582C7EE339009D48D7 /* takeumbrella */ = {
 			isa = PBXGroup;
 			children = (
+				874347722C7EF24100D9C9D7 /* Common */,
+				8743476A2C7EF11E00D9C9D7 /* Scene */,
+				8743476B2C7EF13900D9C9D7 /* Storyboard */,
 				878406592C7EE339009D48D7 /* AppDelegate.swift */,
 				8784065B2C7EE339009D48D7 /* SceneDelegate.swift */,
-				8784065D2C7EE339009D48D7 /* ViewController.swift */,
-				8784065F2C7EE339009D48D7 /* Main.storyboard */,
 				878406622C7EE339009D48D7 /* Assets.xcassets */,
 				878406642C7EE339009D48D7 /* LaunchScreen.storyboard */,
 				878406672C7EE339009D48D7 /* Info.plist */,
@@ -406,9 +449,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8784065E2C7EE339009D48D7 /* ViewController.swift in Sources */,
+				874347712C7EF17C00D9C9D7 /* SettingViewController.swift in Sources */,
 				8784065A2C7EE339009D48D7 /* AppDelegate.swift in Sources */,
 				8784065C2C7EE339009D48D7 /* SceneDelegate.swift in Sources */,
+				8743476D2C7EF15C00D9C9D7 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
