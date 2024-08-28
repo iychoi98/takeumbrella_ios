@@ -155,13 +155,6 @@
 			path = Setting;
 			sourceTree = "<group>";
 		};
-		874347722C7EF24100D9C9D7 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		874347732C7EF4EF00D9C9D7 /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,7 +196,6 @@
 		878406582C7EE339009D48D7 /* takeumbrella */ = {
 			isa = PBXGroup;
 			children = (
-				874347722C7EF24100D9C9D7 /* Common */,
 				8743476A2C7EF11E00D9C9D7 /* Scene */,
 				8743476B2C7EF13900D9C9D7 /* Storyboard */,
 				878406592C7EE339009D48D7 /* AppDelegate.swift */,
