@@ -6,14 +6,17 @@
 //
 
 import UIKit
+import NMapsMap
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // NMapsMap 클라이언트 ID Set (+ info.plist에서 적용됐다면 필요X)
+        NMFAuthManager.shared().clientId = "gkyr7529@naver.com"
+        
+        
         return true
     }
 

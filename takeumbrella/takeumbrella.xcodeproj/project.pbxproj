@@ -101,7 +101,6 @@
 				219C5755EE6565715E2F6E03 /* Pods-takeumbrellaTests.debug.xcconfig */,
 				0F98A62CBB9CF27BC51697B2 /* Pods-takeumbrellaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
