@@ -6,7 +6,10 @@ target 'takeumbrella' do
   use_frameworks!
 
   # Pods for takeumbrella
-  pod 'NMapsMap'
+  pod 'SnapKit'
+  pod 'Alamofire'  
+
+  pod 'NMapsMap' # Naver Map API
 
   target 'takeumbrellaTests' do
     inherit! :search_paths
