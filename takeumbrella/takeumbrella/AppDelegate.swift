@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // NMapsMap 클라이언트 ID Set (+ info.plist에서 적용됐다면 필요X)
-        NMFAuthManager.shared().clientId = "gkyr7529@naver.com"
+        NMFAuthManager.shared().clientId = "4yjl0m5jsj"
         
         
         return true
