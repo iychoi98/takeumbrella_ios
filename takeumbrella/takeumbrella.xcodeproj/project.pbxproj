@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E237FCAABA222C3D7D2A1E5 /* Pods_takeumbrella_takeumbrellaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DEFB851CD643F1CC1BD029 /* Pods_takeumbrella_takeumbrellaUITests.framework */; };
 		8784065A2C7EE339009D48D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878406592C7EE339009D48D7 /* AppDelegate.swift */; };
 		8784065C2C7EE339009D48D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784065B2C7EE339009D48D7 /* SceneDelegate.swift */; };
 		8784065E2C7EE339009D48D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784065D2C7EE339009D48D7 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		878406712C7EE339009D48D7 /* takeumbrellaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878406702C7EE339009D48D7 /* takeumbrellaTests.swift */; };
 		8784067B2C7EE33A009D48D7 /* takeumbrellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784067A2C7EE33A009D48D7 /* takeumbrellaUITests.swift */; };
 		8784067D2C7EE33A009D48D7 /* takeumbrellaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784067C2C7EE33A009D48D7 /* takeumbrellaUITestsLaunchTests.swift */; };
+		D4C5CDF3CAFE0158717B6F36 /* Pods_takeumbrellaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CD3DC14DE07CEC09E18418 /* Pods_takeumbrellaTests.framework */; };
+		EC101125278675828C625A1B /* Pods_takeumbrella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A0C894021C8FCE39FF41DF /* Pods_takeumbrella.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CAF228A7AE33EAC11AC22A8 /* Pods-takeumbrella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-takeumbrella.release.xcconfig"; path = "Target Support Files/Pods-takeumbrella/Pods-takeumbrella.release.xcconfig"; sourceTree = "<group>"; };
+		0F98A62CBB9CF27BC51697B2 /* Pods-takeumbrellaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-takeumbrellaTests.release.xcconfig"; path = "Target Support Files/Pods-takeumbrellaTests/Pods-takeumbrellaTests.release.xcconfig"; sourceTree = "<group>"; };
+		219C5755EE6565715E2F6E03 /* Pods-takeumbrellaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-takeumbrellaTests.debug.xcconfig"; path = "Target Support Files/Pods-takeumbrellaTests/Pods-takeumbrellaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		32967D1C799502FFC29CB6E3 /* Pods-takeumbrella-takeumbrellaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-takeumbrella-takeumbrellaUITests.release.xcconfig"; path = "Target Support Files/Pods-takeumbrella-takeumbrellaUITests/Pods-takeumbrella-takeumbrellaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63CD3DC14DE07CEC09E18418 /* Pods_takeumbrellaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_takeumbrellaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DEFB851CD643F1CC1BD029 /* Pods_takeumbrella_takeumbrellaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_takeumbrella_takeumbrellaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEBDFC1D57E942E8735E5F9 /* Pods-takeumbrella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-takeumbrella.debug.xcconfig"; path = "Target Support Files/Pods-takeumbrella/Pods-takeumbrella.debug.xcconfig"; sourceTree = "<group>"; };
 		878406562C7EE339009D48D7 /* takeumbrella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takeumbrella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878406592C7EE339009D48D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8784065B2C7EE339009D48D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		878406762C7EE33A009D48D7 /* takeumbrellaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takeumbrellaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8784067A2C7EE33A009D48D7 /* takeumbrellaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takeumbrellaUITests.swift; sourceTree = "<group>"; };
 		8784067C2C7EE33A009D48D7 /* takeumbrellaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takeumbrellaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B40BEDDC52CDD49F8B00C37B /* Pods-takeumbrella-takeumbrellaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-takeumbrella-takeumbrellaUITests.debug.xcconfig"; path = "Target Support Files/Pods-takeumbrella-takeumbrellaUITests/Pods-takeumbrella-takeumbrellaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8A0C894021C8FCE39FF41DF /* Pods_takeumbrella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_takeumbrella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC101125278675828C625A1B /* Pods_takeumbrella.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4C5CDF3CAFE0158717B6F36 /* Pods_takeumbrellaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E237FCAABA222C3D7D2A1E5 /* Pods_takeumbrella_takeumbrellaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		504069C7AB24F989D4C66E6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DEBDFC1D57E942E8735E5F9 /* Pods-takeumbrella.debug.xcconfig */,
+				0CAF228A7AE33EAC11AC22A8 /* Pods-takeumbrella.release.xcconfig */,
+				B40BEDDC52CDD49F8B00C37B /* Pods-takeumbrella-takeumbrellaUITests.debug.xcconfig */,
+				32967D1C799502FFC29CB6E3 /* Pods-takeumbrella-takeumbrellaUITests.release.xcconfig */,
+				219C5755EE6565715E2F6E03 /* Pods-takeumbrellaTests.debug.xcconfig */,
+				0F98A62CBB9CF27BC51697B2 /* Pods-takeumbrellaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84E84B4204525777610A0362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A0C894021C8FCE39FF41DF /* Pods_takeumbrella.framework */,
+				72DEFB851CD643F1CC1BD029 /* Pods_takeumbrella_takeumbrellaUITests.framework */,
+				63CD3DC14DE07CEC09E18418 /* Pods_takeumbrellaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8784064D2C7EE338009D48D7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				8784066F2C7EE339009D48D7 /* takeumbrellaTests */,
 				878406792C7EE33A009D48D7 /* takeumbrellaUITests */,
 				878406572C7EE339009D48D7 /* Products */,
+				504069C7AB24F989D4C66E6B /* Pods */,
+				84E84B4204525777610A0362 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878406802C7EE33A009D48D7 /* Build configuration list for PBXNativeTarget "takeumbrella" */;
 			buildPhases = (
+				51A82A5D6952F0BFFAB8F70E /* [CP] Check Pods Manifest.lock */,
 				878406522C7EE338009D48D7 /* Sources */,
 				878406532C7EE338009D48D7 /* Frameworks */,
 				878406542C7EE338009D48D7 /* Resources */,
+				13F2473859B7F7143385D542 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878406832C7EE33A009D48D7 /* Build configuration list for PBXNativeTarget "takeumbrellaTests" */;
 			buildPhases = (
+				FC1AEA39B5AD809291316E7A /* [CP] Check Pods Manifest.lock */,
 				878406682C7EE339009D48D7 /* Sources */,
 				878406692C7EE339009D48D7 /* Frameworks */,
 				8784066A2C7EE339009D48D7 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878406862C7EE33A009D48D7 /* Build configuration list for PBXNativeTarget "takeumbrellaUITests" */;
 			buildPhases = (
+				DD8B352E2C1C580D23AF67D6 /* [CP] Check Pods Manifest.lock */,
 				878406722C7EE33A009D48D7 /* Sources */,
 				878406732C7EE33A009D48D7 /* Frameworks */,
 				878406742C7EE33A009D48D7 /* Resources */,
+				243FBE11BCA4238C6DA91955 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13F2473859B7F7143385D542 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-takeumbrella/Pods-takeumbrella-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-takeumbrella/Pods-takeumbrella-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-takeumbrella/Pods-takeumbrella-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		243FBE11BCA4238C6DA91955 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-takeumbrella-takeumbrellaUITests/Pods-takeumbrella-takeumbrellaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-takeumbrella-takeumbrellaUITests/Pods-takeumbrella-takeumbrellaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-takeumbrella-takeumbrellaUITests/Pods-takeumbrella-takeumbrellaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51A82A5D6952F0BFFAB8F70E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-takeumbrella-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8B352E2C1C580D23AF67D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-takeumbrella-takeumbrellaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC1AEA39B5AD809291316E7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-takeumbrellaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		878406522C7EE338009D48D7 /* Sources */ = {
@@ -437,6 +586,7 @@
 		};
 		878406812C7EE33A009D48D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DEBDFC1D57E942E8735E5F9 /* Pods-takeumbrella.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +616,7 @@
 		};
 		878406822C7EE33A009D48D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CAF228A7AE33EAC11AC22A8 /* Pods-takeumbrella.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -495,6 +646,7 @@
 		};
 		878406842C7EE33A009D48D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219C5755EE6565715E2F6E03 /* Pods-takeumbrellaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +667,7 @@
 		};
 		878406852C7EE33A009D48D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F98A62CBB9CF27BC51697B2 /* Pods-takeumbrellaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +688,7 @@
 		};
 		878406872C7EE33A009D48D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40BEDDC52CDD49F8B00C37B /* Pods-takeumbrella-takeumbrellaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -553,6 +707,7 @@
 		};
 		878406882C7EE33A009D48D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32967D1C799502FFC29CB6E3 /* Pods-takeumbrella-takeumbrellaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
