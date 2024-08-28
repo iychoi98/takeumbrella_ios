@@ -5,3 +5,6 @@ takeumbrella/takeumbrella.xcodeproj/xcuserdata/dsoft202211.xcuserdatad/xcschemes
 takeumbrella/takeumbrella.xcworkspace/contents.xcworkspacedata
 takeumbrella/Pods
 takeumbrella/Podfile.lock
+takeumbrella/.DS_Store
+*.xcuserstate
+takeumbrella/takeumbrella.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
