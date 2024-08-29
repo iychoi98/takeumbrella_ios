@@ -23,6 +23,8 @@
 		8784067B2C7EE33A009D48D7 /* takeumbrellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784067A2C7EE33A009D48D7 /* takeumbrellaUITests.swift */; };
 		8784067D2C7EE33A009D48D7 /* takeumbrellaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784067C2C7EE33A009D48D7 /* takeumbrellaUITestsLaunchTests.swift */; };
 		87AD4A0C2C800F0500E26152 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD4A0B2C800F0500E26152 /* UIColor+Extension.swift */; };
+		87AD4A0F2C802B6000E26152 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD4A0E2C802B6000E26152 /* AppConfig.swift */; };
+		87AD4A112C802B6D00E26152 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD4A102C802B6D00E26152 /* URLs.swift */; };
 		D4C5CDF3CAFE0158717B6F36 /* Pods_takeumbrellaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CD3DC14DE07CEC09E18418 /* Pods_takeumbrellaTests.framework */; };
 		EC101125278675828C625A1B /* Pods_takeumbrella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A0C894021C8FCE39FF41DF /* Pods_takeumbrella.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +73,8 @@
 		8784067A2C7EE33A009D48D7 /* takeumbrellaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takeumbrellaUITests.swift; sourceTree = "<group>"; };
 		8784067C2C7EE33A009D48D7 /* takeumbrellaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takeumbrellaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		87AD4A0B2C800F0500E26152 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		87AD4A0E2C802B6000E26152 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		87AD4A102C802B6D00E26152 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
 		B40BEDDC52CDD49F8B00C37B /* Pods-takeumbrella-takeumbrellaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-takeumbrella-takeumbrellaUITests.debug.xcconfig"; path = "Target Support Files/Pods-takeumbrella-takeumbrellaUITests/Pods-takeumbrella-takeumbrellaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8A0C894021C8FCE39FF41DF /* Pods_takeumbrella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_takeumbrella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -180,6 +184,7 @@
 		876D45962C7FF9DC0077B16C /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				87AD4A0D2C802B5400E26152 /* Constant */,
 				876D45972C7FF9E30077B16C /* Manager */,
 				87AD4A0A2C800EDB00E26152 /* Extension */,
 			);
@@ -255,6 +260,15 @@
 				87AD4A0B2C800F0500E26152 /* UIColor+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		87AD4A0D2C802B5400E26152 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				87AD4A0E2C802B6000E26152 /* AppConfig.swift */,
+				87AD4A102C802B6D00E26152 /* URLs.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -497,10 +511,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87AD4A0F2C802B6000E26152 /* AppConfig.swift in Sources */,
 				876D45992C7FFA580077B16C /* APIManager.swift in Sources */,
 				874347712C7EF17C00D9C9D7 /* SettingViewController.swift in Sources */,
 				8784065A2C7EE339009D48D7 /* AppDelegate.swift in Sources */,
 				8784065C2C7EE339009D48D7 /* SceneDelegate.swift in Sources */,
+				87AD4A112C802B6D00E26152 /* URLs.swift in Sources */,
 				876D459B2C7FFA680077B16C /* MapManager.swift in Sources */,
 				874347762C7EF50C00D9C9D7 /* MapViewController.swift in Sources */,
 				8743476D2C7EF15C00D9C9D7 /* MainViewController.swift in Sources */,
